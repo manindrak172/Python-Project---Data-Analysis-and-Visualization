@@ -168,13 +168,10 @@ dataset.groupby('category')['amount'].sum().sort_values(ascending=False).head(5)
 
 # In[51]:
 
-
 # brand wise sales percentage
 dataset.groupby('brand')['rating'].count().sort_values(ascending=False).head(5).plot(kind='pie', autopct='%1.1f%%',title='Top 5 Brand wise sales percentage')
 
-
 # In[52]:
-
 
 # Gender wise customer distribution
 gender_distribution = dataset['gender'].value_counts()
@@ -183,32 +180,6 @@ autopct='%1.1f%%', startangle=90, colors=['skyblue', 'lightcoral'])
 plt.title('Gender wise customer Distribution')
 plt.show()
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
