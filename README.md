@@ -49,3 +49,4 @@ Top brands by sales (bar chart)
 Customer ratings distribution (stacked bar chart)
 
 Gender-based segmentation (segmented bar chart)
+![Screenshot 2024-10-09 233609](https://github.com/user-attachments/assets/7e7e061e-f614-424e-b197-443f28bc896f)
